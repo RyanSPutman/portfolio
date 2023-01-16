@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-stretch: condensed;
+    font-weight: 700;
+
+}
+
+body{
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #663366;
+    min-height: 50px;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fontyslogo{
+    height: 75px;
+    width: auto;
+    margin: 1% 10% 1% 5%;
+}
+
+.nav-indeling{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5%;
+    width: 100%;
+    height: 100%;
+    gap: 5vh;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 40%;
+    outline: solid white 3px;
+    opacity: 0.8;
+    margin-top: 2%;
+    border-radius: 5px;
+
+}
+
+.s{
+    display: flex;
+    flex-direction: row;
+    gap: -1%;
+    align-items: flex-end;
+    width: 95%;
+}
+
+
+
+p{
+    color: white;
+    font-size: 110%;
+    
+}
+
+.nav-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    height: 100%;
+    width: 100%;
+}
+
+.arrow{
+    height: 50%;
+    width: auto;
+}
+
+
+  #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.search{
+    background-color: rgba(255, 255, 255, 0);
+    width: 90%;
+    height: auto;
+}
+
+.looking-glass{
+    height: auto;
+    width: 10%;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-right: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.language-icon{
+    width: 20%;
+    height: auto;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 20%;
+
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner-image{
+    z-index: -1;
+    position: relative;
+    width: 120%;
+    margin: 0 0 0 -10%;
+    
+}
+
+
+.yung{
+    width: 18%;
+    z-index: 0;
+    bottom: -2%;
+    right: 13%;
+    position: absolute;
+}
+
+.welkom{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 0;
+    font-size:  500%;
+    text-shadow: 5px  5px black;
+}
+
+.up{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 3%;
+
+}
+
+
+.text{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda{
+    width: 75%;
+}
+
+.nav-option:hover{
+    cursor: pointer;
+}
+
+.looking-glass:hover{
+    cursor: pointer;
+}
+
+.language-icon:hover{
+    cursor: pointer;
+}
+
+.up:hover{
+    cursor: pointer;
+}
+
+#banner-photo {
+	display: block;
+	margin: 0 auto;
+    background-image: url('./images/feestdagen.png');
+	background-size: cover;
+	max-width: 1920px;
+    /* cursor: url('eraser-svgrepo-com.svg'), auto; */
+    cursor: default;
+	height: auto;
+    width: 120%;
+    margin: 0 0 0 -10%;
+    z-index: 0;
+
+}
+

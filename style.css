@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url('./images/background\ image.png');
+    overflow-x: hidden;
+}
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.leerdoelen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.leeruitkomst-links{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin: 5%;
+
+}
+
+.leeruitkomst-links-text{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    gap: 5%;
+
+    
+}
+
+.leeruitkomst-links-text-main{
+
+    font-size: 300%;
+    width: auto;
+    text-align: right;
+    
+}
+
+.leeruitkomst-links-text-sub{
+    text-align: right;
+    
+}
+
+.leeruitkomst-links-werk{
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.leeruitkomst-links-afbeelding{
+    width: 80%;
+}
+
+
+.leeruitkomst-links-lees-meer{
+    width: 15%;
+    align-self: flex-end;
+}
+
+.leeruitkomst-rechts{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.leeruitkomst-rechts-text{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    gap: 5%;
+
+    
+}
+
+.leeruitkomst-rechts-text-main{
+
+    font-size: 300%;
+    width: auto;
+    text-align: left;
+    
+}
+
+.leeruitkomst-rechts-text-sub{
+    text-align: left;
+    
+}
+
+.leeruitkomst-rechts-werk{
+    display: flex;
+    width: 30%;
+    height: auto;
+    justify-content: right;
+}
+
+.leeruitkomst-rechts-afbeelding{
+    width: 80%;
+}
+
+
+.leeruitkomst-rechts-lees-meer{
+    width: 15%;
+    align-self: flex-start;
+}
+
+.image-back{
+    max-width: 25px;
+    margin: 5%;
+    z-index: 1;
+    position: fixed;
+}
+
+.image-back:hover{
+    cursor: pointer;
+}
+
+.portfolio{
+    color: white;
+    font-size: 800%;
+    font-family: "Roboto", sans-serif;
+}
+.Ryan{
+    display: flex;
+    width: 15%;
+}
+.front-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagina-selectie{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+}
+
+.leerdoel-selectie{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+    gap: 5%; 
+    margin: 5%;
+    justify-content: center;
+}
+
+.leerdoel-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 5%;
+    align-items: center;
+}
+
+.-leerdoel{
+    background-image: url("./images/square.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.-leerdoel-text{
+    font-size: 200%;
+    margin-bottom: 4%;
+}
+
+.-leerdoel:hover{
+    cursor: pointer;
+}
+
+.home{
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.leerdoelen{
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.proffesional-identity{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 2%;
+}
+
+.p-nu{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.p-later{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.spotify-frame{
+    display: flex;
+    width: 110%;
+    background-color: gray;
+    flex-direction: column;
+    margin: 5%;
+    border-radius: 5px;
+}
+
+.wrapped{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 2% ;
+    justify-content: center;
+    justify-content: space-around   ;
+}
+
+.meningen{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.mening-frame{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.list-div{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 5% 0% 5% 0%;
+}
+
+.twee-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#fontysEasteregg{
+    width: 60%;
+    
+}
+
+.leeruitkomst-rechts-canvas{
+    background-image: url("./images/easter2022.png");
+    background-image: cover;
+    cursor: default;
+}
+
+.twee-buttons-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+}
+
+.leeruitkomst-links-sprintx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.score{
+    font-size: 300%;
+    font-family: "Roboto", sans-serif;
+}
+
+.clicker-button{
+    width: 70%;
+}
+
+.img-button{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+#leerdoel-active{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+
+}
+#home-active{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+
+.persoonlijke-groei{
+    text-align: center;
+    font-size: 200%;
+}
+
+.persoonlijke-groei-tekst{
+    text-align: center;
+}
+

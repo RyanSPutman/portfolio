@@ -1,0 +1,197 @@
+*{
+  margin: 0%;
+}
+
+:root{
+  --background: #333;
+}
+
+body{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background);
+}
+
+#screen{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  outline: solid black 10px;
+  /* background-image: url(wallpaper.jpg) ; */
+  background-size: cover;
+  flex-direction: column;
+  
+}
+.backgroundimage{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.score{
+  display: flex;
+  font-weight: bolder;
+  font-size: 400%;
+  color: white;
+}
+
+.scoreboard{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 2%;
+  height: 20%;
+ 
+
+}
+
+.click-button{
+  display: flex;
+  width: 25%;
+  align-self: center;
+  position: relative;
+}
+
+.upgrade-button{
+  display: flex;
+  width: 20%;
+}
+
+.store-button{
+  display: flex;
+  width: 20%;
+}
+
+.sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 2%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.sidenav-right {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 2%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.close{
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  right: 1%;
+  top: 1%;
+  width: 5%;
+}
+
+.kader{
+  display: flex;
+  width: 90%;
+  position: absolute;
+  z-index: -1;
+}
+
+.shopitem{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 15%;
+}
+
+.upgrade-level{
+  color: black;
+
+}
+
+.upgrade-icon{
+  display: flex;
+  width: 20%;
+
+}
+
+.buy{
+  display: flex;
+  height: 50%;
+}
+
+.buyRandom{
+  display: flex;
+  height: 50%;
+}
+
+.smallbox{
+  height: 10%;
+  width: 10%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tiny-box{
+  width: 50%;
+}
+
+.tiny-box:hover{
+  width: 50%;
+  outline: 2px solid white;
+  display:inline-block;
+}
+
+.KeysText{
+  color: white;
+  font-size: 150%;
+
+}
+
+.recent-win{
+  color: white;
+  font-size: 120%;
+}
+
+.icon-size{
+  display: flex;
+  width: 10%;
+}
